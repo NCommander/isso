@@ -198,6 +198,7 @@
     max-width: 25%;
     margin: 0;
 }
+
 .isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
     padding: .3em 10px;
     max-width: 100%;
@@ -216,18 +217,37 @@
     padding: calc(.3em - 1px);
     border-radius: 2px;
     border: 1px solid #CCC;
-    background-color: #DDD;
     cursor: pointer;
     outline: 0;
     line-height: 1.4em;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: 700;
 }
 .isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
-    background-color: #CCC;
+    background-color: #57a913;
 }
+/*
 .isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
     background-color: #BBB;
 }
+*/
+.isso-postbox > .form-wrapper > .auth-section .post-action > input[type="submit"]{
+    background-color: #10803f;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input[type="submit"]:hover{
+    background-color: #20904f;
+}
+
+.isso-postbox > .form-wrapper > .auth-section .post-action > input[type="button"]{
+    background-color: #e22e30;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input[type="button"]:hover{
+    background-color: #f23e40;
+}
+
 .isso-postbox > .form-wrapper .preview,
 .isso-postbox > .form-wrapper input[name="edit"],
 .isso-postbox.preview-mode > .form-wrapper input[name="preview"],
